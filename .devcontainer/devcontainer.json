@@ -1,0 +1,6 @@
+{
+    "name": "Node.js",
+    "image": "registry.gitlab.com/mu-bd-ce/devcontainers/nodejs:latest",
+    // Command to execute after the container is created, used to install project dependencies defined in package.json.
+    "postCreateCommand": "npm install"
+}
